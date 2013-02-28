@@ -1,0 +1,29 @@
+Corretora de Imoveis
+
+Árvore - Gerenciar Imoveis
+
+Galho - inserir imoveis
+
+dados - Operação (venda ou aluguel)
+	Tipo(casa, Apt, sala, terreno , galpão), 
+	codigo postal,estado, região, cidade, bairro, endereço(nome da rua, numero , complemento,)
+	Mobiliado (sim ou nao)
+	Quantidade de quartos
+	Numero de Banheiros
+	Metros quadrados
+	fotos
+	Valor
+	
+
+Regras de negocio
+
+	Campos Obrigatorios - 
+	Operação 
+	tipo 
+	valor (só aceita valores numericos) 
+	codigo postal (Quando o usuário prencher o cep o sistema faz uma busca e preenche os campos) 
+	é obrigatorio o preenchimento do número
+
+Dependências
+
+        Pesquisa de CEP
