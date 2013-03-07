@@ -1,0 +1,34 @@
+Imoveis:
+
+Cliente Entra no site
+Na guia Cadastre seu imovel
+Preenche o formulario
+Recebe um protocolo
+Espera contato da imobiliaria
+
+
+Pré-Cadastro: O cliente faz o pré-cadastro e espera o contato do corretora 
+Operação: Alugar ou vender - obrigatorio
+Tipo: Casa, Apartamento ou Comercial - obrigatorio
+Area útil: m²
+Area total: m²
+Nº de Qtos:
+Nº Suites:
+Nº Garagem:
+Valor: R$
+Cidade: obrigatorio
+Estado: obrigado
+Bairro: obrigatorio
+Endereço: obrigatorio
+Descrição de imovel:
+
+Dados do Proprietario:
+Nome: obrigatorio
+Endereço:
+CEP:
+Bairro:
+Cidade: 
+Estado:
+E-mail: obrigatorio
+Telefone: obrigatorio
+Já é Cliente: sim ou não
