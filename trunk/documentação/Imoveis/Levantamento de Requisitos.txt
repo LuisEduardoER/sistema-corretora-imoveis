@@ -3,10 +3,18 @@ Corretora de Imoveis
 Levantamento de Requisitos
 
 
-//Cliente que faz o pré-cadastro
+//Acesso que o cliente tem ao site
 Pré-Cadastro Imovel:
 Inserir
 
+Corretor On-Line:
+Bate-Papo
+
+Financiamento:
+Simulação
+
+Contato
+Formulário envio de E-mail
 //Cadastro de usuario do sistema
 Cadastro de Usuario(Funcionario)
 Cadastrar
