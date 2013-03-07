@@ -1,0 +1,42 @@
+Corretora de Imoveis
+
+Levantamento de Requisitos
+
+
+//Cliente que faz o pré-cadastro
+Pré-Cadastro Imovel:
+Inserir
+
+//Cadastro de usuario do sistema
+Cadastro de Usuario(Funcionario)
+Cadastrar
+Editar
+Excluir
+
+//Funções do Funcionario
+Cadastro Imovel:
+Cadastrar
+Editar
+Pesquisar
+Excluir
+Listar
+
+Cliente:
+Cadastrar
+Editar
+Excluir
+Pesquisar
+Listar
+
+Operação:
+Venda
+Aluguel
+
+Corretor On-Line:
+Bate-Papo
+
+Financiamento:
+Simulação
+
+Contato
+Formulário envio de E-mail
