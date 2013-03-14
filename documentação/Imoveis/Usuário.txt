@@ -1,0 +1,12 @@
+Usuários:
+
+Cadastrar
+
+Um funcionario já cadastrado, ira entrar para informar os dados do funcionario a ser cadastrado
+Informar o nome completo, obrigatorio
+Informar o endereço, obrigatorio
+Informar o cpf, obrigatorio
+Informar a data nascimento, obrigatorio
+Informar o sexo
+Informar o tipo do funcionario, obrigatorio
+
