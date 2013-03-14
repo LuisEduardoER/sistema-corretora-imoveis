@@ -1,6 +1,6 @@
 Imoveis:
 
-Cliente Entra no site
+Cliente Entra no site, faz o login
 Na guia Cadastre seu imovel
 Preenche o formulario
 Recebe um protocolo
