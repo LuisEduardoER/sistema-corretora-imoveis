@@ -6,11 +6,24 @@ Pré-Cadastro: O cliente faz o pré-cadastro e espera o contato do corretora]
 
  
 Um funcionario já cadastrado, ira entrar para informar os dados do funcionario a ser cadastrado
-Informar o nome completo, obrigatorio
-Informar o endereço, obrigatorio
-Informar o cpf, obrigatorio
-Informar a data nascimento, obrigatorio
-Informar o sexo
-Informar o tipo do funcionario, obrigatorio
+
+Nome completo: obrigatorio
+Endereço: obrigatorio
+CEP
+Bairro
+Cidade
+Estado
+Email: Obrigatorio
+Telefone: Obrigatorio
+CPF: obrigatorio
+Data nascimento, obrigatorio
+Sexo: Masc ou Fem
+Tipo do funcionario: obrigatorio
 
 
+Pesquisar:
+
+Por Nome completo
+Por Cidade/Estado/Bairro
+Por CPF: 
+Por Tipo do funcionario
