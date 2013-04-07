@@ -1,0 +1,143 @@
+
+Sistema Corretora Imóveis
+Histórias 
+
+Cliente:
+
+ 	Título: Pré-Cadastro clientes
+ 	 
+ 	O sistema terá uma tela de cadastro onde o cliente poderá fazer um pré-cadastro para que posteriormente  a corretora entre em contato  com o cliente.
+ 	
+ 	Com o objetivo de efetuar um pré-cadastro de clientes.
+	
+ 	Dados a Inserir: nome, RG,CPF,endereço.
+ 	 
+ 	Dependências: 
+ 	 
+ 
+
+Funcionário:
+
+ 	Título: Logar Funcionário
+ 	Um funcionário irá acessar a tela de login de funcionário para ter acesso ao sistema.
+ 	
+ 	Com o objetivo de logar o  funcionário.
+ 	 
+ 	Dados a Inserir: 
+	Nome usuário:obrigatório
+	Senha: obrigatório. 
+ 	 
+
+
+ 	Título: Inserir funcionário
+ 	Um funcionário já cadastrado  irá acessar a tela de cadastro de funcionário para informar os dados do funcionário a ser cadastrado.
+ 	
+ 	Com o objetivo de cadastrar o funcionário.
+ 	 
+ 	Dados a Inserir: 
+
+	Nome Completo: obrigatório
+	Endereço: obrigatório
+	CEP
+	Bairro
+	Cidade
+	Estado
+	Email: obrigatório
+	Telefone: obrigatório
+	CPF: obrigatório
+	Data nascimento: obrigatório
+	Sexo: M ou F
+	Tipo Funcionário: obrigatório
+ 	 
+ 	Dependências: O funcionário deve estar  logado. 
+ 	 
+
+
+ 	Título: Pesquisar Funcionários 
+ 	Um funcionário já cadastrado realiza uma busca prévia de funcionários no sistema, sendo utilizados para a pesquisa os seguintes dados: nome, endereço, CPF e tipo de funcionário.
+
+ 	Com o objetivo de pesquisar um funcionário já cadastrado.
+ 	
+ 	Dados a Exibir: 	
+	Nome Completo
+	Endereço
+	CEP
+	Bairro
+	Cidade
+	Estado
+	Email
+	Telefone
+	CPF
+	Data Nascimento
+	Sexo
+	Tipo Funcionário
+ 	 
+ 	Dependências: Inserir Funcionário
+ 	 
+
+
+ 	Título: Alterar Funcionários
+ 	Um funcionário já cadastrado realiza uma busca prévia de funcionários no sistema, encontrado o funcionário pesquisado, o funcionário poderá fazer a alteração necessária no cadastro.
+ 	 
+ 	Com o objetivo de fazer alteração no cadastro de funcionários.
+ 	
+ 	Dados a Alterar: 
+	Nome completo
+	Endereço
+	CEP
+	Bairro
+	Cidade
+	Estado
+	Email
+	Telefone
+	CPF
+	Data nascimento
+	Sexo
+	Tipo Funcionário
+ 	 
+ 	Dependências: Pesquisar Funcionários
+ 	 
+
+
+ 	Título: Excluir Funcionários
+ 	Um funcionário já cadastrado realiza uma busca prévia de funcionários no sistema, encontrado o funcionário pesquisado, o funcionário poderá fazer a exclusão do funcionário no cadastro.
+ 	
+ 	Com o objetivo de excluir um funcionário existente.
+ 	Dados a Excluir: 
+	Nome completo
+	Endereço
+	CEP
+	Bairro
+	Cidade
+	Estado
+	Email
+	Telefone
+	CPF
+	Data nascimento
+	Sexo
+	Tipo Funcionário
+ 	 
+ 	Dependências: Pesquisar Funcionários
+ 	 
+
+
+ 	Título: Listar Funcionários
+ 	Um funcionário já cadastrado realiza uma busca de todos os funcionários cadastrados no sistema.
+ 	
+ 	Com o objetivo de retornar uma lista de todos os funcionários cadastrados.
+ 	Dados a Exibir: 
+	Nome completo
+	Endereço
+	CEP
+	Bairro
+	Cidade
+	Estado
+	Email
+	Telefone
+	CPF
+	Data nascimento
+	Sexo
+	Tipo Funcionário
+ 	 
+ 	Dependências: Inserir Funcionários 
+ 	 
