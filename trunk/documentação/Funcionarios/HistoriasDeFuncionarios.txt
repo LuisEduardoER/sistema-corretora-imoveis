@@ -2,20 +2,6 @@
 Sistema Corretora Imóveis
 Histórias 
 
-Cliente:
-
- 	Título: Pré-Cadastro clientes
- 	 
- 	O sistema terá uma tela de cadastro onde o cliente poderá fazer um pré-cadastro para que posteriormente  a corretora entre em contato  com o cliente.
- 	
- 	Com o objetivo de efetuar um pré-cadastro de clientes.
-	
- 	Dados a Inserir: nome, RG,CPF,endereço.
- 	 
- 	Dependências: 
- 	 
- 
-
 Funcionário:
 
  	Título: Logar Funcionário
@@ -103,6 +89,7 @@ Funcionário:
  	Um funcionário já cadastrado realiza uma busca prévia de funcionários no sistema, encontrado o funcionário pesquisado, o funcionário poderá fazer a exclusão do funcionário no cadastro.
  	
  	Com o objetivo de excluir um funcionário existente.
+ 	
  	Dados a Excluir: 
 	Nome completo
 	Endereço
@@ -125,6 +112,7 @@ Funcionário:
  	Um funcionário já cadastrado realiza uma busca de todos os funcionários cadastrados no sistema.
  	
  	Com o objetivo de retornar uma lista de todos os funcionários cadastrados.
+ 	
  	Dados a Exibir: 
 	Nome completo
 	Endereço
