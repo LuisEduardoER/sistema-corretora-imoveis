@@ -56,10 +56,10 @@ Usuarios :
 
 	Nome Completo: obrigatório
 	Endereço: obrigatório
-	CEP
-	Bairro
-	Cidade
-	Estado
+	CEP : obrigatório
+	Bairro : obrigatório
+	Cidade : obrigatório
+	Estado : obrigatório
 	Email: obrigatório
 	Telefone: obrigatório
 	CPF: obrigatório
