@@ -1,0 +1,109 @@
+
+Sistema Corretora Imóveis
+Histórias de Imoveis
+
+Imoveis:
+
+ 	Título: Inserir Imovel
+ 	Um usuario irá acessar o sistema, irá efetuar o login para poder ter acesso para cadastrar o imovel. 
+ 	
+ 	Com o objetivo de cadastrar imoveis.
+ 	 
+ 	Dados a Inserir: 
+ 	
+	Operação: Alugar ou vender - obrigatorio
+	Nome Imovel : 
+	Tipo: Casa, Apartamento ou Comercial - obrigatorio
+	Area útil: m²
+	Area total: m²
+	Nº de Qtos: obrigatorio
+	Nº Suites: obrigatorio
+	Nº Garagens:
+	Valor: R$
+	Cidade: obrigatorio
+	Estado: obrigado
+	Bairro: obrigatorio
+	Endereço: obrigatorio
+	Descrição de imovel: 
+ 	 
+	Dependencia : Logar usuario, 
+				  Inserir Usuario, 
+				  Validar Cpf.
+				  
+			
+----------------------------------------------------------------------------------------------------------------			
+
+	Titulo: Listar Imovel do Usuario.
+	Um usuario logado no sistema, pode a qualquer hora consultar a lista de imoveis cadastrado por ele.
+	
+	Com o objetivo de listar os imoveis.
+	
+	Dados a exibir :
+	
+	Nome Imovel 
+	Tipo
+	
+	Dependencia: Usuario Logado
+				 Inserir Usuario
+				 Validar CPF
+				 Inserir Imovel.	
+
+------------------------------------------------------------------------------------------------------------------
+	
+	Titulo : Alterar Imovel
+	Um usuario logado no sistema, pode a qualquer hora alterar, os dados de um imovel já cadastrado anteriormente.
+	
+	Com alterar os dados do imovel.
+	
+	Dados a alterar
+	Operação: Alugar ou vender - 
+	Nome Imovel : 
+	Tipo: Casa, Apartamento ou Comercial - 
+	Area útil: m²
+	Area total: m²
+	Nº de Qtos: 
+	Nº Suites: 
+	Nº Garagens:
+	Valor: R$
+	Cidade: 
+	Estado: 
+	Bairro: 
+	Endereço: 
+	Descrição de imovel: 	
+
+
+	Dependencia: 	Logar usuario
+					Inserir usuario
+					Validar CPF
+					Inserir Imovel
+					Listar imovel
+					 
+------------------------------------------------------------------------------------------------------------------
+
+	Titulo: excluir Imovel
+	Um usuario devidamente logado no sistema, pode a qualquer momento excluir um dos imoveis inseridos anteriormente.
+	
+ 	Com o objetivo de excluir imovel. 
+ 	
+ 	Dados a excluir:
+ 					
+ 					Operação: Alugar ou vender - 
+					Nome Imovel : 
+					Tipo: Casa, Apartamento ou Comercial - 
+					Area útil: m²
+					Area total: m²
+					Nº de Qtos: 
+					Nº Suites: 
+					Nº Garagens:
+					Valor: R$
+					Cidade: 
+					Estado: 
+					Bairro: 
+					Endereço: 
+					Descrição de imovel: 	
+				 	
+ 	Dependencia: 	Logar usuario
+					Inserir usuario
+					Validar CPF
+					Inserir Imovel
+					Listar imovel
