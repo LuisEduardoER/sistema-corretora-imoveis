@@ -47,7 +47,7 @@ Usuarios :
 	--------------------------------------------------------- 	
  	
  	
- 	Título 1: Inserir funcionário
+ 	Título 1: Inserir Usuario
  	Um funcionário já cadastrado  irá acessar a tela de cadastro de funcionário para informar os dados do funcionário a ser cadastrado.
  	
  	Com o objetivo de cadastrar o funcionário.
