@@ -1,0 +1,38 @@
+Corretor online:
+	O cliente irá acessar a caixa de dialogo para iniciar o bate-papo.
+	Ira inserir:
+	e-mail
+	nome
+	
+	apos esta logado, o  sistema irá apresentar o statu so corretor (disponivel, ocupado)
+	se disponivel irá iniciar o atendimento
+	estando ocupado írá mostrar quantos corretores estão em atendimento e qual a 	media do tempo em atendimento.
+	
+	dependencia: Informar o e-mail.
+
+Financiamento:
+
+	O cliente irá escoher o imovel desejado marcando o check box.
+	O sistema irá alimentar o campo do valor do imovel.
+	O cliente escolherá:
+	
+	Quantidade de prestações,
+	Valor da entrada,
+	assim o sistema apresentará o valor da simulação.
+
+	Porém o sistema irá apresentar as formas pre-definidas pela incorporadora, 	proprietário de como desejam o financiamento junto aos bancos de creditos.
+
+	Dependencia: Marcar o imove desejado
+
+
+Pesquisar:
+
+	O Cliente informará os dados abaixo para poder fazer uma pesquisa, neles ele poderá 	marcar: 		
+	Opções para poder filtrar a pesquisa de acordo com seu gosto.
+	Por tipo de Operação: Alugar ou vender
+	Por Tipo: Casa, Apartamento ou Comercial
+	Por Nº de Qtos:
+	Por Valor: R$
+	Por Cidade
+	Por Estado
+	Por Bairro
