@@ -1,8 +1,8 @@
 
-Sistema Corretora Imóveis
-Histórias 
-
-Funcionário:
+	Sistema Corretora Imóveis
+	Histórias 
+	
+	Funcionário:
 
  	Título: Logar Funcionário
  	Um funcionário irá acessar a tela de login de funcionário para ter acesso ao sistema.
