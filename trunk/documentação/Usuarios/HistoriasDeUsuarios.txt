@@ -12,7 +12,7 @@ Usuarios :
  	 
  	Dados a Inserir: 
 	Login: (E-mail) obrigatório
-	Senha: obrigatório. 
+	Senha: obrigatório.  
 	
 	--------------------------------------------------------
 	
