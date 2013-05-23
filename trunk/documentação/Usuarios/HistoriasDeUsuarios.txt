@@ -5,7 +5,7 @@ Histórias De Usuários
 Usuarios :
 	
 	
- 	Título: Logar Usuario
+ 	Título 1: Logar Usuario
  	Um usuario irá acessar a tela de login de usuario para ter acesso ao sistema.
  	
  	Com o objetivo de logar o  usuario.
@@ -20,7 +20,7 @@ Usuarios :
 	
 	--------------------------------------------------------
 	
-	Título: Deslogar Usuario
+	Título 2: Deslogar Usuario
  	
  	Um usuario logado podera a qualquer momento fazer o logout do sistema.
  	
@@ -33,7 +33,7 @@ Usuarios :
  				  	
 	--------------------------------------------------------
 	
-	Título: Alterar Senha Usuario
+	Título 3: Alterar Senha Usuario
  	Um usuario irá acessar a tela de login de usuario para ter acesso ao sistema.
  	Ira ter uma opçao de trocar a senha.
  	
@@ -53,7 +53,7 @@ Usuarios :
 	
 	---------------------------------------------------------
 	
-	Título: Validar Senha Usuario
+	Título 4: Validar Senha Usuario
 	
  	O sistema ira procurar nos dados do usuario a senha informada.
  	
@@ -71,9 +71,9 @@ Usuarios :
 	
 	
 	---------------------------------------------------------
-	Título: Validar E-mail Usuario
+	Título 5: Validar E-mail Usuario
 	
- 	O sistema ira procurar nos dados do usuario a E-mail informado.
+ 	O sistema ira procurar nos dados do usuario o E-mail informado.
  	
  	Com o objetivo de Validar o Email do  funcionário já cadastrado.
  	
@@ -86,10 +86,28 @@ Usuarios :
 					Validar E-mail
 					Logar Usuario
 					Alterar Senha Usuario	
+					
+	---------------------------------------------------------
+	Título 6: Recuperar Senha Usuario
+	
+	Um usuario já cadastrado ira acessar uma tela para recuperar a senha que esqueceu
+	e  a sua senha sera enviada para o seu email.
+	
+	Com o objetivo de recuperar a senha do usuario.
+	
+	Dados a inserir: E-mail
+					
+	Dependencias: Logar Usuario
+				  Inserir Usuario
+				  Validar cpf
+				  Validar E-mail
+				  Validar E-mail Usuario
+				  
+	
 	---------------------------------------------------------
  	
  	
- 	Título 1: Inserir Usuario
+ 	Título 7: Inserir Usuario
  	
  	Um usuario já cadastrado  irá acessar a tela de cadastro de usuario para informar os dados do usuario a ser inserido.
  	
@@ -119,7 +137,7 @@ Usuarios :
  				  
 	-----------------------------------------------------------------
 
-	Titulo 2: Validar Cpf
+	Titulo 8: Validar Cpf
 	
 	O cpf inserido sera submetido a uma validaçao pelo sistema.
 	
@@ -133,7 +151,7 @@ Usuarios :
 				  Inserir Usuario.
 				  
 	----------------------------------------------------------------	
-	Titulo 3 : Validar E-mail
+	Titulo 9 : Validar E-mail
 	
 	O E-mail inserido sera submetido a uma validaçao pelo sistema.
 	
@@ -149,7 +167,7 @@ Usuarios :
 			  	
 
 	-----------------------------------------------------------------------------------------------------
- 	Título 4: Pesquisar Usuarios 
+ 	Título 10: Pesquisar Usuarios 
  	Um usuario já cadastrado realiza uma busca prévia de usuarios no sistema, sendo utilizados para a pesquisa os seguintes dados: nome, endereço, CPF e tipo de usuario.
 
  	Com o objetivo de pesquisar um usuario já cadastrado.
@@ -175,7 +193,7 @@ Usuarios :
 
 
 	--------------------------------------------------------------------------------------------
- 	Título 5: Alterar Usuario
+ 	Título 11: Alterar Usuario
  	Um usuario já cadastrado realiza uma busca prévia de usuarios no sistema, encontrado o usuario pesquisado, o usuario poderá fazer a alteração necessária no cadastro.
  	 
  	Com o objetivo de fazer alteração no cadastro de usuarios.
@@ -202,7 +220,7 @@ Usuarios :
  	 
 
 	----------------------------------------------------------------------------------------------------
- 	Título 6: Excluir Usuarios
+ 	Título 12: Excluir Usuarios
  	Um usuario já cadastrado realiza uma busca prévia de usuarios no sistema, encontrado o usuario pesquisado, o usuario poderá fazer a exclusão do usuario no cadastro.
  	
  	Com o objetivo de excluir um usuario existente.
@@ -229,7 +247,7 @@ Usuarios :
  	 
 
 	-----------------------------------------------------------------------------------------------------
- 	Título 7: Listar Usuarios
+ 	Título 13: Listar Usuarios
  	Um usuario já cadastrado realiza uma busca de todos os usuarios cadastrados no sistema.
  	
  	Com o objetivo de retornar uma lista de todos os usuarios cadastrados.
