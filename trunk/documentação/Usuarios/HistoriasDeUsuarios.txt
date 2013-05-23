@@ -1,33 +1,55 @@
 
 Sistema Corretora Imóveis
-Histórias 
+Histórias De Usuários
 
 Usuarios :
 	
 	
  	Título: Logar Usuario
- 	Um funcionário irá acessar a tela de login de funcionário para ter acesso ao sistema.
+ 	Um usuario irá acessar a tela de login de usuario para ter acesso ao sistema.
  	
- 	Com o objetivo de logar o  funcionário.
+ 	Com o objetivo de logar o  usuario.
  	 
  	Dados a Inserir: 
 	Login: (E-mail) obrigatório
-	Senha: obrigatório.  
+	Senha: obrigatório. 
+	
+	Dependencias: Inserir Usuario
+				  Validar cpf
+				  Validar E-mail 
 	
 	--------------------------------------------------------
 	
+	Título: Deslogar Usuario
+ 	
+ 	Um usuario logado podera a qualquer momento fazer o logout do sistema.
+ 	
+ 	Com o objetivo de deslogar o  usuario.
+ 	 
+ 	Dependencias: Logar Usuario
+ 				  Inserir Usuario
+ 				  Validar Cpf
+ 				  Validar Email 
+ 				  	
+	--------------------------------------------------------
+	
 	Título: Alterar Senha Usuario
- 	Um funcionário irá acessar a tela de login de funcionário para ter acesso ao sistema.
+ 	Um usuario irá acessar a tela de login de usuario para ter acesso ao sistema.
  	Ira ter uma opçao de trocar a senha.
  	
- 	Com o objetivo de Alterar a senha do  funcionário.
+ 	Com o objetivo de Alterar a senha do  usuario.
  	 
  	Dados a Inserir: 
 	Login:(E-mail) obrigatório.
 	Senha: obrigatório.
 	NovaSenha: obrigatorio.
 	
-	Dependências: Validar Senha Usuario.
+	Dependências: Inserir Usuario.
+				  Validar Cpf
+				  Validar E-mail
+				  Logar Usuario
+				  Validar Senha Usuario.
+				  Validar E-Mail usuario
 	
 	---------------------------------------------------------
 	
@@ -35,22 +57,43 @@ Usuarios :
 	
  	O sistema ira procurar nos dados do usuario a senha informada.
  	
- 	Com o objetivo de Validar a senha do  funcionário.
+ 	Com o objetivo de Validar a senha do  funcionário já cadastrado.
  	
  	Dados a inserir:
- 	Login:(E-mail) obrigatorio
+ 	
  	Senha: obrigatorio.
  	 
-	Dependências: Alterar Senha Usuario
+	Dependências: 	Inserir Usuario
+					Validar cpf
+					Validar Email
+					Logar Usuario
+					Alterar Senha Usuario
 	
 	
-	--------------------------------------------------------- 	
+	---------------------------------------------------------
+	Título: Validar E-mail Usuario
+	
+ 	O sistema ira procurar nos dados do usuario a E-mail informado.
+ 	
+ 	Com o objetivo de Validar o Email do  funcionário já cadastrado.
+ 	
+ 	Dados a inserir:
+ 	
+ 	E-mail: obrigatorio.
+ 	 
+	Dependências: 	Inserir Usuario
+					Validar cpf
+					Validar E-mail
+					Logar Usuario
+					Alterar Senha Usuario	
+	---------------------------------------------------------
  	
  	
  	Título 1: Inserir Usuario
- 	Um funcionário já cadastrado  irá acessar a tela de cadastro de funcionário para informar os dados do funcionário a ser cadastrado.
  	
- 	Com o objetivo de cadastrar o funcionário.
+ 	Um usuario já cadastrado  irá acessar a tela de cadastro de usuario para informar os dados do usuario a ser inserido.
+ 	
+ 	Com o objetivo de cadastrar o usuario.
  	 
  	Dados a Inserir: 
 
@@ -64,17 +107,17 @@ Usuarios :
 	Telefone: obrigatório
 	CPF: obrigatório
 	Data nascimento: obrigatório
-	Sexo: M ou F
+	Sexo: M ou F : obrigatório
 	Tipo Funcionário: obrigatório
-	Login: obrigatório
+	Login:(E-mail) obrigatorio
 	Senha: obrigatório. 
 	
  	 
  	Dependências: Logar Usuario.
  				  Validar Cpf.
- 	 
-
-
+ 				  Validar E-mail
+ 				  
+	-----------------------------------------------------------------
 
 	Titulo 2: Validar Cpf
 	
@@ -87,14 +130,29 @@ Usuarios :
 	Cpf: obrigatorio.
 	
 	Dependencias: Logar Usuario
-				  Inserir Funcionario.
-				  	
+				  Inserir Usuario.
+				  
+	----------------------------------------------------------------	
+	Titulo 3 : Validar E-mail
+	
+	O E-mail inserido sera submetido a uma validaçao pelo sistema.
+	
+	Com o objetivo de validar o E-mail.
+	
+	Dados a inserir:
+	
+	E-mail: obrigatorio.
+	
+	Dependencias: Logar Usuario
+				  Inserir Usuario.
 
+			  	
 
- 	Título 3: Pesquisar Funcionários 
- 	Um funcionário já cadastrado realiza uma busca prévia de funcionários no sistema, sendo utilizados para a pesquisa os seguintes dados: nome, endereço, CPF e tipo de funcionário.
+	-----------------------------------------------------------------------------------------------------
+ 	Título 4: Pesquisar Usuarios 
+ 	Um usuario já cadastrado realiza uma busca prévia de usuarios no sistema, sendo utilizados para a pesquisa os seguintes dados: nome, endereço, CPF e tipo de usuario.
 
- 	Com o objetivo de pesquisar um funcionário já cadastrado.
+ 	Com o objetivo de pesquisar um usuario já cadastrado.
  	
  	Dados a Exibir: 	
 	Nome Completo
@@ -111,15 +169,16 @@ Usuarios :
 	Tipo Funcionário
  	 
  	Dependências: Usuário logado
- 	              Inserir Funcionario
- 	              validar cpf
+ 	              Inserir Usuario
+ 	              Validar cpf
+ 	              Validar E-mail
 
 
-
- 	Título 4: Alterar Funcionários
- 	Um funcionário já cadastrado realiza uma busca prévia de funcionários no sistema, encontrado o funcionário pesquisado, o funcionário poderá fazer a alteração necessária no cadastro.
+	--------------------------------------------------------------------------------------------
+ 	Título 5: Alterar Usuario
+ 	Um usuario já cadastrado realiza uma busca prévia de usuarios no sistema, encontrado o usuario pesquisado, o usuario poderá fazer a alteração necessária no cadastro.
  	 
- 	Com o objetivo de fazer alteração no cadastro de funcionários.
+ 	Com o objetivo de fazer alteração no cadastro de usuarios.
  	
  	Dados a Alterar: 
 	Nome completo
@@ -136,16 +195,17 @@ Usuarios :
 	Tipo Funcionário
  	 
  	Dependências: 	Logar Usuario 
- 					Inserir Funcionarios
+ 					Inserir Usuarios
  					Validar Cpf
- 					Pesquisar Funcionários
+ 					Validar E-mail
+ 					Pesquisar Usuarios
  	 
 
-
- 	Título 5: Excluir Funcionários
- 	Um funcionário já cadastrado realiza uma busca prévia de funcionários no sistema, encontrado o funcionário pesquisado, o funcionário poderá fazer a exclusão do funcionário no cadastro.
+	----------------------------------------------------------------------------------------------------
+ 	Título 6: Excluir Usuarios
+ 	Um usuario já cadastrado realiza uma busca prévia de usuarios no sistema, encontrado o usuario pesquisado, o usuario poderá fazer a exclusão do usuario no cadastro.
  	
- 	Com o objetivo de excluir um funcionário existente.
+ 	Com o objetivo de excluir um usuario existente.
  	
  	Dados a Excluir: 
 	Nome completo
@@ -162,16 +222,17 @@ Usuarios :
 	Tipo Funcionário
  	 
  	Dependências:	Logar usuario
- 					Inserir Funcionario
+ 					Inserir Usuario
  					Validar Cpf
- 					Pesquisar Funcionarios
+ 					Validar E-mail
+ 					Pesquisar Usuario
  	 
 
-
- 	Título 6: Listar Funcionários
- 	Um funcionário já cadastrado realiza uma busca de todos os funcionários cadastrados no sistema.
+	-----------------------------------------------------------------------------------------------------
+ 	Título 7: Listar Usuarios
+ 	Um usuario já cadastrado realiza uma busca de todos os usuarios cadastrados no sistema.
  	
- 	Com o objetivo de retornar uma lista de todos os funcionários cadastrados.
+ 	Com o objetivo de retornar uma lista de todos os usuarios cadastrados.
  	
  	Dados a Exibir: 
 	Nome completo
@@ -188,8 +249,9 @@ Usuarios :
 	Tipo Funcionário
  	 
  	Dependências: 	Logar Usuario
- 					Inserir Funcionários
+ 					Inserir Usuarios
  					Validar Cpf
+ 					Validar E-mail
  					
  	
  	
