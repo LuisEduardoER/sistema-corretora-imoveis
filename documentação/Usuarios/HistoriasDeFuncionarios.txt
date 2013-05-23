@@ -13,7 +13,7 @@ Funcionário:
 	Nome usuário:obrigatório
 	Senha: obrigatório. 
  	 
-
+-----------------------------------------------------------------------------------------------
 
  	Título: Inserir funcionário
  	Um funcionário já cadastrado  irá acessar a tela de cadastro de funcionário para informar os dados do funcionário a ser cadastrado.
@@ -37,7 +37,7 @@ Funcionário:
  	 
  	Dependências: O funcionário deve estar  logado. 
  	 
-
+	------------------------------------------------------------------------------
 
  	Título: Pesquisar Funcionários 
  	Um funcionário já cadastrado realiza uma busca prévia de funcionários no sistema, sendo utilizados para a pesquisa os seguintes dados: nome, endereço, CPF e tipo de funcionário.
@@ -60,7 +60,7 @@ Funcionário:
  	 
  	Dependências: Inserir Funcionário
  	 
-
+	------------------------------------------------------------------------------
 
  	Título: Alterar Funcionários
  	Um funcionário já cadastrado realiza uma busca prévia de funcionários no sistema, encontrado o funcionário pesquisado, o funcionário poderá fazer a alteração necessária no cadastro.
@@ -83,7 +83,7 @@ Funcionário:
  	 
  	Dependências: Pesquisar Funcionários
  	 
-
+	------------------------------------------------------------------------------
 
  	Título: Excluir Funcionários
  	Um funcionário já cadastrado realiza uma busca prévia de funcionários no sistema, encontrado o funcionário pesquisado, o funcionário poderá fazer a exclusão do funcionário no cadastro.
@@ -106,7 +106,7 @@ Funcionário:
  	 
  	Dependências: Pesquisar Funcionários
  	 
-
+	------------------------------------------------------------------------------
 
  	Título: Listar Funcionários
  	Um funcionário já cadastrado realiza uma busca de todos os funcionários cadastrados no sistema.
@@ -129,4 +129,78 @@ Funcionário:
  	 
  	Dependências: Inserir Funcionários 
  	 
- 
+ 	------------------------------------------------------------------------------
+ 	
+	Título: Validar Senha Funionário
+	
+	O sistema ira procurar nos dados do usuario a senha informada.
+	
+	Com o objetivo de Validar a senha do funcionário já cadastrado.
+	
+	Dados a inserir:
+	
+	Senha: obrigatorio.
+	
+	Dependências: Inserir Funcionário
+	Validar cpf
+	Validar Email
+	Logar Funcionãrio
+	Alterar Senha Funcinário
+ 	
+ 	------------------------------------------------------------------------------
+ 	
+ 	Título: Alterar Senha Funcionário
+	Um Funcionário irá acessar a tela de login de Funcionário para ter acesso ao sistema.
+	Ira ter uma opçao de trocar a senha.
+	
+	Com o objetivo de Alterar a senha do Funcionário.
+	
+	Dados a Inserir:
+	Login:(E-mail) obrigatório.
+	Senha: obrigatório.
+	NovaSenha: obrigatorio.
+	
+	Dependências: Inserir Funcionário.
+	Validar Cpf
+	Validar E-mail
+	Logar Funcionário
+	Validar Senha Funcionário.
+	Validar E-Mail Funcionário
+	
+	------------------------------------------------------------------------------
+	
+	Título: Validar Senha Funcionário
+
+	O sistema ira procurar nos dados do Funcionário a senha informada.
+	
+	Com o objetivo de Validar a senha do funcionário já cadastrado.
+	
+	Dados a inserir:
+	
+	Senha: obrigatorio.
+	
+	Dependências: Inserir Funcionário
+	Validar cpf
+	Validar Email
+	Logar Usuario
+	Alterar Senha Funcionário
+	
+	------------------------------------------------------------------------------
+	
+	Título: Validar E-mail Funcionário
+
+	O sistema ira procurar nos dados do Funcionário e E-mail informado.
+	
+	Com o objetivo de Validar o Email do funcionário já cadastrado.
+	
+	Dados a inserir:
+	
+	E-mail: obrigatorio.
+	
+	Dependências: Inserir Funcionário
+	Validar cpf
+	Validar E-mail
+	Logar Funcionário
+	Alterar Senha Funcionário 
+	
+ 	
