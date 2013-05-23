@@ -1,6 +1,7 @@
 
 Sistema Corretora Imóveis
 Histórias De Usuários
+(Fabio Santos)
 
 Usuarios :
 	
@@ -18,7 +19,7 @@ Usuarios :
 				  Validar cpf
 				  Validar E-mail 
 	
-	--------------------------------------------------------
+	------------------------------------
 	
 	Título 2: Deslogar Usuario
  	
@@ -31,7 +32,7 @@ Usuarios :
  				  Validar Cpf
  				  Validar Email 
  				  	
-	--------------------------------------------------------
+	------------------------------------
 	
 	Título 3: Alterar Senha Usuario
  	Um usuario irá acessar a tela de login de usuario para ter acesso ao sistema.
@@ -51,7 +52,7 @@ Usuarios :
 				  Validar Senha Usuario.
 				  Validar E-Mail usuario
 	
-	---------------------------------------------------------
+	------------------------------------
 	
 	Título 4: Validar Senha Usuario
 	
@@ -70,7 +71,8 @@ Usuarios :
 					Alterar Senha Usuario
 	
 	
-	---------------------------------------------------------
+	------------------------------------
+	
 	Título 5: Validar E-mail Usuario
 	
  	O sistema ira procurar nos dados do usuario o E-mail informado.
@@ -87,7 +89,7 @@ Usuarios :
 					Logar Usuario
 					Alterar Senha Usuario	
 					
-	---------------------------------------------------------
+	------------------------------------
 	Título 6: Recuperar Senha Usuario
 	
 	Um usuario já cadastrado ira acessar uma tela para recuperar a senha que esqueceu
@@ -104,7 +106,7 @@ Usuarios :
 				  Validar E-mail Usuario
 				  
 	
-	---------------------------------------------------------
+	------------------------------------
  	
  	
  	Título 7: Inserir Usuario
@@ -135,7 +137,7 @@ Usuarios :
  				  Validar Cpf.
  				  Validar E-mail
  				  
-	-----------------------------------------------------------------
+	------------------------------------
 
 	Titulo 8: Validar Cpf
 	
@@ -150,7 +152,7 @@ Usuarios :
 	Dependencias: Logar Usuario
 				  Inserir Usuario.
 				  
-	----------------------------------------------------------------	
+	------------------------------------	
 	Titulo 9 : Validar E-mail
 	
 	O E-mail inserido sera submetido a uma validaçao pelo sistema.
@@ -166,7 +168,8 @@ Usuarios :
 
 			  	
 
-	-----------------------------------------------------------------------------------------------------
+	------------------------------------
+	
  	Título 10: Pesquisar Usuarios 
  	Um usuario já cadastrado realiza uma busca prévia de usuarios no sistema, sendo utilizados para a pesquisa os seguintes dados: nome, endereço, CPF e tipo de usuario.
 
@@ -192,7 +195,8 @@ Usuarios :
  	              Validar E-mail
 
 
-	--------------------------------------------------------------------------------------------
+	------------------------------------
+	
  	Título 11: Alterar Usuario
  	Um usuario já cadastrado realiza uma busca prévia de usuarios no sistema, encontrado o usuario pesquisado, o usuario poderá fazer a alteração necessária no cadastro.
  	 
@@ -219,7 +223,7 @@ Usuarios :
  					Pesquisar Usuarios
  	 
 
-	----------------------------------------------------------------------------------------------------
+	------------------------------------
  	Título 12: Excluir Usuarios
  	Um usuario já cadastrado realiza uma busca prévia de usuarios no sistema, encontrado o usuario pesquisado, o usuario poderá fazer a exclusão do usuario no cadastro.
  	
@@ -246,7 +250,7 @@ Usuarios :
  					Pesquisar Usuario
  	 
 
-	-----------------------------------------------------------------------------------------------------
+	------------------------------------
  	Título 13: Listar Usuarios
  	Um usuario já cadastrado realiza uma busca de todos os usuarios cadastrados no sistema.
  	
